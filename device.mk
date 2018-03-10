@@ -220,11 +220,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/xtwifi.conf:system/vendor/etc/xtwifi.conf
 
 # Health HAL
-#PRODUCT_PACKAGES += \
-#    android.hardware.health@1.0-impl \
-#    android.hardware.health@1.0-convert \
-#    android.hardware.health@1.0-service \
-#    android.hardware.health@1.0
+PRODUCT_PACKAGES += \
+    android.hardware.health@1.0-impl \
+    android.hardware.health@1.0-convert \
+    android.hardware.health@1.0-service \
+    android.hardware.health@1.0
 
 # HIDL
 PRODUCT_PACKAGES += \
